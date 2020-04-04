@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlbumPageComponent contains albums 1`] = `
+<div>
+  <div>
+    <div
+      className="page-title"
+    >
+      <div>
+        <h2>
+          Album
+        </h2>
+      </div>
+    </div>
+    <div
+      className="grid-container"
+    />
+  </div>
+</div>
+`;

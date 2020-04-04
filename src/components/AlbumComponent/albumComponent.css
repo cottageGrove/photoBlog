@@ -1,0 +1,50 @@
+
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #ededed;
+    margin-bottom: 20px;
+
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.box:hover {
+    background:#FAFAFA;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.album-title {
+    width: 150px;
+    height: 78px;
+    color: black;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+}
+
+.album-title:hover {
+    color:purple;
+    cursor: pointer;
+
+}
+
+@media (max-width: 768px) { 
+    .box {
+        width: 300px;
+        height: 300px;
+        background-color: #ededed;
+        margin-bottom: 20px;
+    }
+
+    .album-title {
+        width: 300px;   
+    }
+}
+
